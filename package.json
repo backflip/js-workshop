@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Workshop",
   "scripts": {
-    "start": "npm run wordpress | npm run frontend",
-    "frontend": "serve frontend",
-    "wordpress": "docker-compose -f stack.yml up"
+    "start": "serve frontend"
   },
   "author": "Thomas Jaggi",
   "license": "ISC",
