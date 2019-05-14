@@ -13,6 +13,7 @@
 4. Create WordPress user
 5. Install `Twenty Nineteen` theme via admin UI
 6. Enable `Workshop` child theme via admin UI
+7. `npm run build`: See below
 
 ## Run
 
