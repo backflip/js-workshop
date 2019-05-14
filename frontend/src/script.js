@@ -1,11 +1,6 @@
 const API = "http://localhost:8080/wp-json/wp/v2/posts";
 
 async function getPosts() {
-  if (!window.fetch) {
-    await import("promise-polyfill");
-    await import("whatwg-fetch");
-  }
-
   const response = await fetch(API);
   const posts = await response.json();
 
