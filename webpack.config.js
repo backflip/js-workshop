@@ -30,7 +30,7 @@ module.exports = {
                 useBuiltIns: "usage",
                 debug: true,
                 // Which browsers to targets
-                targets: "> 1%"
+                targets: "> 1%, IE 11"
               }
             ]
           ],
