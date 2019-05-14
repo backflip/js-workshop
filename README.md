@@ -1,17 +1,9 @@
 # Workshop
 
-## Prerequisites
+Open `./frontend/index.html` in browser.
 
-- Node
+## Extended setups
 
-## Setup
-
-`npm install`
-
-Installs dependencies for static frontend.
-
-## Run
-
-`npm start`
-
-Starts a static webserver on `http://localhost:5000`, serving `./frontend`.
+- Branch `v/node` contains a basic static webserver
+- Branch `v/docker` contains a docker setup with WordPress
+- Branch `v/final` contains a Webpack setup with Babel
